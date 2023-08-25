@@ -51,20 +51,19 @@ nav a {
   text-decoration: none;
 }
 
-.section-value-promise {
+/* ---------------------section A */
+
+.section-A {
   display: flex;
   align-items: center;
   grid-column: 1 / Span 12;
   grid-row: 2;
-  height: 500px;
+  height: 600px;
   overflow: hidden;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(7, 36, 191, 0.48) 93.36%);
 }
-.section-value-promise-container {
-  display: flex;
-  flex-direction: column;
-}
-.wrapper-promise-value-title {
+
+.section-A-title {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -72,7 +71,7 @@ nav a {
   margin-left: 30px;
 }
 
-.headerH1 {
+.section-A-H1 {
   color: #0779bf;
   font-family: Poppins;
   font-size: 40px;
@@ -80,7 +79,7 @@ nav a {
   font-weight: 700;
   line-height: 65px;
 }
-.headerH2 {
+.section-A-H2 {
   color: #000;
   font-family: Poppins;
   font-size: 16px;
@@ -88,22 +87,25 @@ nav a {
   font-weight: 400;
   line-height: 22.4px; /* 140% */
 }
-.header-button {
+.section-A-button {
   font-family: Poppins;
   color: white;
-  height: 3em;
+  height: 4em;
   width: 10em;
-  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 400px;
+  border-radius: 5px;
   background: #0779bf;
   border: none;
-  box-shadow: 2px 3px 5px rgb(75, 75, 75);
+  /* box-shadow: 2px 3px 5px rgb(75, 75, 75); */
 }
 
-.wrapper-promise-value-visual {
+.section-A-visual {
   display: flex;
   flex-direction: column;
   position: relative;
   margin-right: 50px;
+  margin-top: 120px;
 }
 .circle {
   position: absolute;
@@ -134,4 +136,34 @@ nav a {
   height: 70px;
   width: 70px;
   border-radius: 50%;
+}
+
+/* ---------------------section B */
+
+.section-B {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1 / span 12;
+  grid-row: 3;
+  height: 500px;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+  width: 50%;
+  margin-top: -30px;
+  margin-left: 30px;
+  padding: 20px;
+  z-index: 999;
+  background-color: rgb(74, 112, 145);
+}
+.menu-selections {
+  width: 60px;
+  height: 60px;
+  margin-top: -30px;
+  border-radius: 50%;
+  background-color: white;
+
 }
